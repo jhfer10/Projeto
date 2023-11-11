@@ -96,7 +96,8 @@ ul {
   flex-direction: column;
   gap: 16px;
 
-  padding: 24px 0;
+  padding: 24px ;
+  
 }
 
 ul li a {
