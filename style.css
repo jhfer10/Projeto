@@ -96,7 +96,8 @@ ul {
   flex-direction: column;
   gap: 16px;
 
-  padding: 24px ;
+  padding: 24px 500px;
+  
   
 }
 
@@ -106,7 +107,7 @@ ul li a {
   justify-content: center;
 
   padding: 16px 24px;
-
+  
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
