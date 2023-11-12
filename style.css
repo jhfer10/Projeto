@@ -98,8 +98,6 @@ ul {
   gap: 16px;
 
   padding: 24px 500px;
-  
-  
 }
 
 ul li a {
@@ -108,7 +106,7 @@ ul li a {
   justify-content: center;
 
   padding: 16px 24px;
-  
+
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
@@ -152,4 +150,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/img/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/img/bg-desktop-light.jpg);
+  }
 }
