@@ -32,11 +32,10 @@ body * {
 }
 
 #container {
-  width: 100%;
   max-width: 588px;
   margin: 56px auto 8px;
-
   padding: 0 24px;
+  width: 100%;
 }
 
 #profile {
@@ -103,7 +102,7 @@ ul {
   flex-direction: column;
   gap: 16px;
 
-  padding: 24px 500px;
+  padding: 24px 0;
 }
 
 ul li a {
