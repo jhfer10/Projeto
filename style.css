@@ -33,7 +33,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px; 
+  max-width: 588px;
   margin: 56px auto 8px;
   padding: 0 24px;
 }
@@ -101,7 +101,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 24px ;
+  padding: 24px;
 }
 
 ul li a {
